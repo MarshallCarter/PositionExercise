@@ -77,25 +77,26 @@ body {
 
   #soul {
       position: absolute;
-      bottom: 25px;
-      right: 25px;
+      bottom: 0px;
+      right: 0px;
+       z-index: 1;
       
   }
 
   #reality {
       position: absolute;
-      right: 35px;
-      top: 250px;
+      right: 0px;
+      bottom: 150px;
   }
 
   #mind {
       position: fixed;
-      right: 25px;
+      right: 0px;
   }
   #time {
       position: fixed;
-      top: 25px;
-      right: 25px;
+      top: 0px;
+      right: 0px;
   }
 
   h1 {
@@ -103,3 +104,16 @@ body {
       top: 0;
       z-index: 2;
 }
+#reality {
+    z-index: 3;
+}
+
+#time {
+    z-index: 2;
+}
+
+h2 {
+    position: sticky;
+    top: 65;
+}
+
